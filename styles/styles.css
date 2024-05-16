@@ -24,10 +24,35 @@ body {
 .container .element label {
     color: #e5e5e5;
 }
+.container .element input {
+    width: 100%;
+    padding: 10px 0;
+    color: #e5e5e5;
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid #e5e5e5;
+    margin-bottom: 30px;
+}
+.container .element input[type="submit"] {
+    background-color: #0d1b2a;
+    border: none;
+    border-radius: 10px;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    margin-top: 15px;
+    cursor: pointer;
+}
+.container .element input[type="submit"]:hover {
+    background-color: #1b263b;
+}
 
-/* Gardient Colors:
+/* 
+Gardient Colors:
 1)
 #e9b7ce #d3f3f1
 2)
 #c9def4 #f5ccd4 #b8a4c9
+Colors:
+1)
+#1b263b
 */
