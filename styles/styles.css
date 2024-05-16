@@ -1,0 +1,33 @@
+html{
+    height: 100%;
+}
+
+body {
+    margin: 0 ;
+    padding: 0;
+    background: linear-gradient(#c9def4, #f5ccd4, #b8a4c9);
+}
+.container {
+    margin: 50px auto;
+    width: 400px;
+    padding: 30px;
+    background: rgba(0, 0, 0, .5);
+    border-radius: 20px;
+}
+.container h2 {
+    margin: 0 0 30px;
+    padding: 0;
+    font-size: 30px;
+    text-align: center;
+    color: #e5e5e5;
+}
+.container .element label {
+    color: #e5e5e5;
+}
+
+/* Gardient Colors:
+1)
+#e9b7ce #d3f3f1
+2)
+#c9def4 #f5ccd4 #b8a4c9
+*/
